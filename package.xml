@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package SYSTEM "../../php4/pear/package.dtd">
+<package version="1.0">
+    <name>XML_image2svg</name>
+    <summary>Image to SVG conversion</summary>
+    <description>The class converts images, such as of the format JPEG, PNG 
+and GIF to a standalone SVG representation. The image is being encoded 
+by the PHP native encode_base64() function. You can use it to get back 
+a complete SVG file, which is based on a predefinded, easy adaptable 
+template file, or you can take the encoded file as a return value, using 
+the get() method. Due to the encoding by base64, the SVG files will 
+increase approx. 30% in size compared to the conventional image.</description>
+    <maintainer>
+        <user>urs</user>
+        <role>lead</role>
+        <name>Urs Gehrig</name>
+        <email>urs@circle.ch</email>
+    </maintainer>
+    <release>
+        <version>0.1</version>
+        <state>stable</state>
+        <date>2002-05-01</date>
+        <notes>This is the inital stable release.</notes>
+        <license>PHP 2.02</license>
+        <filelist>
+            <dir name="/" baseinstalldir="XML">
+                <file name="image2svg.php" role="php" />
+                <dir name="tests" role="test">
+                    <file name="Test_image2svg.php" />
+                    <file name="tpl.image.svg" />
+                    <file name="test.bmp" />
+                    <file name="test.gif" />
+                    <file name="test.jpg" />
+                    <file name="test.png" />
+                </dir>
+            </dir>
+        </filelist>        
+    </release>
+</package>
