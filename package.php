@@ -52,7 +52,7 @@ $package->addMaintainer('urs',  'lead',        'Urs Gehrig',      'urs@circle.ch
 
 $package->addDependency('HTML_Template_IT',        false, 'has', 'pkg', true);
 
-if (isset($_GET['make']) || (isset($_SERVER['argv'][2]) && $_SERVER['argv'][2] == 'make')) { 
+if (isset($_GET['make']) || (isset($_SERVER['argv'][1]) && $_SERVER['argv'][1] == 'make')) { 
     $result = $package->writePackageFile();
 } else {
     $result = $package->debugPackageFile();
