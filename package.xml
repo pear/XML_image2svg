@@ -1,41 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE package SYSTEM "../../php4/pehttp://pear.php.net/dtd/package-1.0">
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
 <package version="1.0">
-    <name>XML_image2svg</name>
-    <summary>Image to SVG conversion</summary>
-    <description>The class converts images, such as of the format JPEG, PNG 
+  <name>XML_image2svg</name>
+  <summary>Image to SVG conversion</summary>
+  <description>The class converts images, such as of the format JPEG, PNG 
 and GIF to a standalone SVG representation. The image is being encoded 
 by the PHP native encode_base64() function. You can use it to get back 
 a complete SVG file, which is based on a predefinded, easy adaptable 
 template file, or you can take the encoded file as a return value, using 
 the get() method. Due to the encoding by base64, the SVG files will 
 increase approx. 30% in size compared to the conventional image.</description>
-    <maintainers>
-        <maintainer>
-            <user>urs</user>
-            <role>lead</role>
-            <name>Urs Gehrig</name>
-            <email>urs@circle.ch</email>
-        </maintainer>
-    </maintainers>
+  <maintainers>
+    <maintainer>
+      <user>urs</user>
+      <name>Urs Gehrig</name>
+      <email>urs@circle.ch</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <release>
+    <version>1.0</version>
+    <date>2004-02-08</date>
+    <license>PHP 2.02</license>
+    <state>stable</state>
+    <notes>* fixed integration of HTML_Template_IT
+* various CS fixes</notes>
+    <deps>
+      <dep type="pkg" rel="has" optional="yes">HTML_Template_IT</dep>
+    </deps>
+    <filelist>
+      <dir baseinstalldir="/XML/image2svg/" name="/">
+       <dir name="tests">
+        <file role="test" name="test.bmp"/>
+        <file role="test" name="test.gif"/>
+        <file role="test" name="test.jpg"/>
+        <file role="test" name="test.png"/>
+        <file role="test" name="test_image2svg.php"/>
+        <file role="test" name="tpl.image.svg"/>
+       </dir> <!-- tests -->
+       <file role="php" name="image2svg.php"/>
+      </dir> <!-- / -->
+    </filelist>
+  </release>
+  <changelog>
     <release>
-        <version>0.1</version>
-        <state>stable</state>
-        <date>2002-05-01</date>
-        <notes>This is the inital stable release.</notes>
-        <license>PHP 2.02</license>
-        <filelist>
-            <dir name="/" baseinstalldir="XML">
-                <file name="image2svg.php" role="php" />
-                <dir name="tests" role="test">
-                    <file name="Test_image2svg.php" />
-                    <file name="tpl.image.svg" />
-                    <file name="test.bmp" />
-                    <file name="test.gif" />
-                    <file name="test.jpg" />
-                    <file name="test.png" />
-                </dir>
-            </dir>
-        </filelist>        
+      <version>0.1</version>
+      <date>2002-05-01</date>
+      <license>PHP 2.02</license>
+      <state>stable</state>
+      <notes>This is the inital stable release.</notes>
     </release>
+    <release>
+      <version>1.0</version>
+      <date>2004-02-08</date>
+      <license>PHP 2.02</license>
+      <state>stable</state>
+      <notes>* fixed integration of HTML_Template_IT
+* various CS fixes</notes>
+    </release>
+  </changelog>
 </package>
