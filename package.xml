@@ -10,12 +10,14 @@ a complete SVG file, which is based on a predefinded, easy adaptable
 template file, or you can take the encoded file as a return value, using 
 the get() method. Due to the encoding by base64, the SVG files will 
 increase approx. 30% in size compared to the conventional image.</description>
-    <maintainer>
-        <user>urs</user>
-        <role>lead</role>
-        <name>Urs Gehrig</name>
-        <email>urs@circle.ch</email>
-    </maintainer>
+    <maintainers>
+        <maintainer>
+            <user>urs</user>
+            <role>lead</role>
+            <name>Urs Gehrig</name>
+            <email>urs@circle.ch</email>
+        </maintainer>
+    </maintainers>
     <release>
         <version>0.1</version>
         <state>stable</state>
