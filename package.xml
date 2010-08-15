@@ -17,16 +17,16 @@ increase approx. 30% in size compared to the conventional image.</description>
   <active>yes</active>
  </lead>
  <date>2010-08-15</date>
- <time>15:06:38</time>
+ <time>15:22:39</time>
  <version>
   <release>0.1.1</release>
   <api>0.1.0</api>
  </version>
  <stability>
-  <release>stable</release>
-  <api>stable</api>
+  <release>beta</release>
+  <api>beta</api>
  </stability>
- <license>PHP 2.02</license>
+ <license uri="http://www.php.net/license/">PHP</license>
  <notes>
 QA release
  </notes>
@@ -38,7 +38,7 @@ QA release
    <file baseinstalldir="/" md5sum="d6b42576a697f69754415bf2e505b066" name="tests/test.png" role="test" />
    <file baseinstalldir="/" md5sum="056972bb682898abfe1fd928510e2ad7" name="tests/test_image2svg.php" role="test" />
    <file baseinstalldir="/" md5sum="d079279dc5aff2311827bebe4254ae68" name="tests/tpl.image.svg" role="test" />
-   <file baseinstalldir="/" md5sum="1d3dee2a91e15a578febacb351c41d86" name="XML/image2svg.php" role="php" />
+   <file baseinstalldir="/" md5sum="dbbe490b6b865ee1429ba54b95d3a173" name="XML/image2svg.php" role="php" />
    <file baseinstalldir="/" md5sum="4decd1d54f6c3197abe19f4635cde3f9" name="package.php" role="php" />
   </dir>
  </contents>
@@ -97,11 +97,11 @@ This is the inital stable release.
     <api>0.1.0</api>
    </version>
    <stability>
-    <release>stable</release>
-    <api>stable</api>
+    <release>beta</release>
+    <api>beta</api>
    </stability>
    <date>2010-08-15</date>
-   <license>PHP 2.02</license>
+   <license uri="http://www.php.net/license/">PHP</license>
    <notes>
 QA release
    </notes>
