@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "urs@circle.ch",
+            "name": "Urs Gehrig",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "XML_image2svg": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/XML_image2svg",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP",
+    "name": "pear/xml_image2svg",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=XML_image2svg",
+        "source": "https://github.com/pear/XML_image2svg"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
